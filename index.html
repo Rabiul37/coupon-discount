@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Discount</title>
+</head>
+<body>
+    <div class="container">
+        <div class="price">
+            <label for="">
+                <h3>Price :</h3>
+                <input id="total-price" type="text">
+            </label>
+            <button id="pay">Pay</button>
+        </div>
+        <div class="discount">
+            <label for="">
+                <input id="coupon" type="text" placeholder="Use coupon for 30% discount">
+            </label>
+            <button id="discount">Apply</button>
+        </div>
+        <div class="total-pay">
+            <h3>Your total bill: <span id="total-bill">0</span> Taka.</h3> <br>
+            <h3>Discount Bill: <span id="discount-bill">0</span> Taka. </h3>
+        </div>
+    </div>
+    <script src="js/coupondiscount.js"></script>
+</body>
+</html>
